@@ -33,7 +33,7 @@ div p {
   align-items: flex-start;
   width: 320px;
   border-radius: 12px;
-  gap: 12px;
+  gap: 8px;
 }
 
 .card:hover {
@@ -57,7 +57,8 @@ div p {
 }
 
 .date p {
-  font-size: 400;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .title p {
