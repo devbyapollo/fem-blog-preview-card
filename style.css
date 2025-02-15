@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Figtree, sans-serif;
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf) format(ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Figtree, sans-serif;
+  background: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+div p {
+  font-size: 16px;
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 320px;
+  border-radius: 12px;
+  gap: 12px;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 0 0 hsl(0, 0%, 7%);
+}
+
+.image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.pill {
+  padding: 6px 12px;
+  background: hsl(47, 88%, 63%);
+  border-radius: 4px;
+}
+
+.pill p {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.date p {
+  font-size: 400;
+}
+
+.title p {
+  font-weight: 800;
+}
+
+.paragraph {
+  margin-bottom: 12px;
+}
+
+.paragraph p {
+  color: hsl(0, 0%, 42%);
+}
+
+.avatar-n-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar img {
+  width: 38px;
+  height: 38px;
+  border: 2px solid hsl(47, 88%, 63%);
+  border-radius: 50%;
+}
+
+.name p {
+  font-size: 12px;
+  font-weight: 800;
+}
